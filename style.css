@@ -1,0 +1,62 @@
+body {
+    font-size: 40px;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+}
+
+/* DOPO JS */
+
+.title-animation {
+    position: relative;
+    left: 100%;
+    animation-name: back-home;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes back-home {
+    from {
+        left: 100%;
+    }
+    to {
+        left: 0%;
+    }
+}
+
+.password-animation {
+    opacity: 0;
+    animation-name: pass-birth;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    display: block;
+    width: 30%;
+    margin: auto;
+    font-size: 50px;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.generate-animation {
+    opacity: 0;
+    animation-name: pass-birth;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    display: block;
+    width: 30%;
+    margin: auto;
+    font-size: 50px;
+    text-align: center;
+}
+
+@keyframes pass-birth {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
