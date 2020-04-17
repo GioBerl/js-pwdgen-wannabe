@@ -10,4 +10,4 @@ var cognome = prompt('e il tuo cognome?');
 var colorePreferito = prompt('e il tuo colore preferito?');
 
 //creare la password e stamparla su html
-document.writeln('password creata: ' + nome + cognome + colorePreferito);
+document.writeln('password creata: ' + nome + cognome + colorePreferito + '20');
